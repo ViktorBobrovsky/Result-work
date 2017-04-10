@@ -5,7 +5,7 @@ Requirements:
 
 Theme: Food restaurant or cafe;
 Refference link: https://www.lukeslobster.com/
-Features: 
+Features:
           paralax,    
           headers css animations, 
           photo gallery for team members,
