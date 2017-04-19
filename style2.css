@@ -1,0 +1,186 @@
+@media (max-width: 769px){
+	.showcase_main:before, .showcase_main:after,
+	.showcase:before, .showcase:after {
+		content: '';
+		background-size: cover;
+		background-repeat: no-repeat;
+		z-index: 3;
+	}
+}
+* {
+	margin:0; padding: 0;
+} 
+html, body {
+	font-family: 'Arial', serif-sans; color:#FFF; 
+	height:100%;
+} /** format elements which have backgrounds parallax **/ 
+
+.bgParallax { 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px;
+	position: relative; 
+	min-height: 100%; 
+	background-position: 50% 0; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+} /* Define backgrounds of divs */ 
+
+.showcase_main {
+/*	background-image: url(./images/restaurant.jpg);*/
+	width: auto;
+	height: 500px;
+	min-height: 50%; 
+} 
+
+.showcase_img_main {
+	background-image: url(./images/restaurant.jpg);
+}
+.showcase {
+/*	background-image: url(./images/bruschetta.jpg);*/
+	width: auto;
+	height: 500px;
+	min-height: 50%; 
+} 
+
+.showcase_img_0 {
+	background-image: url(./images/bruschetta.jpg);
+} 
+
+.showcase_img_1 {
+	background-image: url(./images/food.jpg);
+} 
+
+.showcase_img_2 {
+	background-image: url(./images/roasted_fish.jpg);
+} 
+
+.showcase_img_3 {
+	background-image: url(./images/cupcakes.jpg);
+} 
+.showcase_img_4 {
+	background-image: url(./images/bruschetta.jpg);
+} 
+
+.content_block { 
+	background-color: white; 
+} 
+
+.showcase_main:before, .showcase_main:after,
+.showcase:before, .showcase:after,
+img:before, img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 31px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 3;
+}
+.showcase_main:before, .showcase:before,
+img:before {
+	background-image: url(./images/Dirty_border_top.png);
+	top: 75px;	
+}
+
+.showcase:before, img:before{
+	top: 0px;	
+}
+
+.showcase_main:after, .showcase:after, img:after {
+	background-image: url(./images/Dirty_border_bottom.png);
+	bottom: 0;
+}
+
+.bgParallax article { 
+	font-size: 24pt;
+	color: white;
+	width: 70%; 
+	text-align: center; 
+	margin:0 auto;
+	padding-top: 265px; 
+} 
+
+.content_column {
+	display: block;
+	float: left;
+	width: 40%;
+	padding: 10px 50px;
+	color:#2b5d2a;
+
+}
+
+.content_column p {
+	line-height: 30px;
+	font-size:20px;
+	margin-top:15px;
+	display: block;
+} 
+
+.content_column h1 {
+	font-size:20px;	
+	border-bottom: 4px solid #2b5d2a;
+	margin-bottom:15px;
+}
+
+.content_column img {
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content_solid {
+	display: block;
+	width: auto;
+	padding: 10px 50px;
+	color:#2b5d2a;
+
+}
+
+.content_solid h1 {
+	font-size:20px;	
+	border-bottom: 4px solid #2b5d2a;
+	margin-bottom:15px;
+} 
+
+.content_solid p {
+	font-size:20px;
+} 
+
+.menu {
+	position: fixed;
+	top:0;
+	height:75px;
+	width:100%;
+	background-color: white;
+	z-index: 100;
+}
+
+.menu a {
+	float: left;
+	display: block;
+	color:  #2b5d2a;
+	text-align: center;
+	padding: 14px 16px;
+	font-size:17px;
+
+}
+.banner_info {
+	display: block;	
+	text-align: center;
+	padding-bottom: 15px;
+	background-color: #e9eeeb;
+}	
+.banner_info p {
+	padding: 20px;
+	color: #2b5d2a;
+	font-size:20px;
+}	
+
+.footer {
+	display: block;
+	background-color: #2b5d2a;
+	padding: 20px 25px;
+}
