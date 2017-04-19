@@ -66,9 +66,7 @@ html, body {
 	background-color: white; 
 } 
 
-.showcase_main:before, .showcase_main:after,
-.showcase:before, .showcase:after,
-img:before, img:after {
+.column_img:before, .column_img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -78,19 +76,54 @@ img:before, img:after {
 	background-repeat: no-repeat;
 	z-index: 3;
 }
-.showcase_main:before, .showcase:before,
-img:before {
+
+.column_img:before {
+	background-image: url(./images/Dirty_border_top.png);
+	border-top: 4px solid white;
+	top: 110px;	
+}
+
+.column_img:after {
+	background-image: url(./images/Dirty_border_bottom.png);
+	border-bottom: 4px solid white;
+	bottom: 430px;
+}
+
+.showcase_main:before, .showcase_main:after,
+.showcase:before, .showcase:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 31px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 3;
+}
+.showcase_main:before, .showcase:before {
 	background-image: url(./images/Dirty_border_top.png);
 	top: 75px;	
 }
 
-.showcase:before, img:before{
+.showcase:before {
 	top: 0px;	
 }
 
-.showcase_main:after, .showcase:after, img:after {
+.showcase_main:after, .showcase:after {
 	background-image: url(./images/Dirty_border_bottom.png);
 	bottom: 0;
+}
+.column_img {
+	margin: 30px 0;
+}
+
+.column_img img {
+	display: block;
+	box-sizing: border-box;
+	height: 400px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
 }
 
 .bgParallax article { 
@@ -122,13 +155,6 @@ img:before {
 	font-size:20px;	
 	border-bottom: 4px solid #2b5d2a;
 	margin-bottom:15px;
-}
-
-.content_column img {
-	height: 400px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .content_solid {
