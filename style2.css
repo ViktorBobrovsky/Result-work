@@ -15,6 +15,16 @@ html, body {
 	height:100%;
 } /** format elements which have backgrounds parallax **/ 
 
+.logo {
+	
+	background-image: url(./images/logo.jpg);
+	position:static;
+	height: 75px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 90px;
+}
+
 .bgParallax { 
 	margin: 0 auto; 
 	width: 100%; 
@@ -62,31 +72,78 @@ html, body {
 	background-image: url(./images/bruschetta.jpg);
 } 
 
+.img_0 {
+	background-image: url(./images/bruschetta.jpg);
+} 
+
+.img_1 {
+	background-image: url(./images/food.jpg);
+} 
+
+.img_2 {
+	background-image: url(./images/roasted_fish.jpg);
+} 
+
+.img_3 {
+	background-image: url(./images/cupcakes.jpg);
+} 
+.img_4 {
+	background-image: url(./images/bruschetta.jpg);
+} 
+
+.img_5 {
+	background-image: url(./images/food.jpg);
+} 
+
+.img_6 {
+	background-image: url(./images/roasted_fish.jpg);
+} 
+
+.img_7 {
+	background-image: url(./images/cupcakes.jpg);
+} 
+.img_8 {
+	background-image: url(./images/bruschetta.jpg);
+} 
+
 .content_block { 
 	background-color: white; 
 } 
-
-.column_img:before, .column_img:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 31px;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	z-index: 3;
+.parent { 
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: green;
 }
 
-.column_img:before {
+.image_frame:before {
 	background-image: url(./images/Dirty_border_top.png);
-	border-top: 4px solid white;
-	top: 110px;	
+	content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+    height: 31px;
+	background-size: 100% 100%;
+	z-index: 3;
+
 }
 
-.column_img:after {
+.image_frame:after {
 	background-image: url(./images/Dirty_border_bottom.png);
-	border-bottom: 4px solid white;
-	bottom: 430px;
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+    height: 31px;
+	background-size: 100% 100%;
+	z-index: 3;
+
 }
 
 .showcase_main:before, .showcase_main:after,
@@ -101,7 +158,10 @@ html, body {
 	z-index: 3;
 }
 .showcase_main:before, .showcase:before {
-	background-image: url(./images/Dirty_border_top.png);
+	background-image: url(./images/Dirty_border_top.png);	
+}
+
+.showcase_main:before {
 	top: 75px;	
 }
 
@@ -112,18 +172,6 @@ html, body {
 .showcase_main:after, .showcase:after {
 	background-image: url(./images/Dirty_border_bottom.png);
 	bottom: 0;
-}
-.column_img {
-	margin: 30px 0;
-}
-
-.column_img img {
-	display: block;
-	box-sizing: border-box;
-	height: 400px;
-	position: relative;
-	background-position: center;
-	background-size: cover;
 }
 
 .bgParallax article { 
@@ -138,12 +186,19 @@ html, body {
 .content_column {
 	display: block;
 	float: left;
-	width: 40%;
+	width: 43%;
+	min-width: 584px;
 	padding: 10px 50px;
 	color:#2b5d2a;
 
 }
-
+.product_img{
+	position:static;
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .content_column p {
 	line-height: 30px;
 	font-size:20px;
@@ -156,6 +211,7 @@ html, body {
 	border-bottom: 4px solid #2b5d2a;
 	margin-bottom:15px;
 }
+
 
 .content_solid {
 	display: block;
