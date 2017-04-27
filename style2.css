@@ -21,7 +21,13 @@ p {
 
 @font-face {
     font-family: Gobold;
-    src: url(./fonts/Gobold Regular.otf);
+    src: url("./fonts/Gobold_Regular.otf");
+}
+
+@font-face {
+    font-family: Cleanveb;
+    src: url("./fonts/CLEANVEB.ttf");
+
 }
 
 
@@ -35,6 +41,46 @@ p {
 	background-size: auto 90px;
 }
 
+
+.menu {
+	position: fixed;
+	top:0;
+	height:75px;
+	width:100%;
+	background-color: white;
+	z-index: 100;
+}
+
+
+.menu a {
+	font-family: Gobold;
+	display: inline-block;
+	color:  #2b5d2a;
+	padding: 22px 16px 12px 16px;
+	font-size:22px;
+
+}
+.menu_right {
+	text-align: right;
+}
+
+.menu_sub {
+	text-align: center;
+	position: fixed;
+	top: 75px;
+	background-color: #2b5d2a;
+	height: 44px;
+	width: 100%;
+	padding-top: 7px;
+	z-index: 99;
+}
+.menu_sub a {
+	font-family: Gobold;
+	font-size: 16pt;
+	color: white;
+	padding: 0px 20px;
+}
+
 .bgParallax { 
 	margin: 0 auto; 
 	width: 100%; 
@@ -44,24 +90,50 @@ p {
 	background-position: 50% 0; 
 	background-repeat: no-repeat; 
 	background-attachment: fixed; 
-} /* Define backgrounds of divs */ 
+} 
 
 .showcase_main {
-/*	background-image: url(./images/restaurant.jpg);*/
 	width: auto;
 	height: 500px;
 	min-height: 50%; 
+	text-align: center;
 } 
 
 .showcase_img_main {
 	background-image: url(./images/restaurant.jpg);
 }
 .showcase {
-/*	background-image: url(./images/bruschetta.jpg);*/
 	width: auto;
 	height: 500px;
 	min-height: 50%; 
+	text-align: center;
 } 
+
+.noshowcase {
+	margin-top: 150px;
+}
+.noshowcase + .noshowcase {
+	margin-top: 0px;
+}
+
+div[class~=showcase] h2, div[class~=showcase_main] h2 {
+	font-family: Gobold;
+	font-size: 24pt;
+	color: white;
+	text-transform: uppercase;
+	text-align: center; 
+	margin: 0 auto;
+	padding-top: 220px; 
+}
+
+div[class~=showcase] h1, div[class~=showcase_main] h1 {
+	font-family: Cleanveb;
+	font-size: 42pt;
+	color: white;
+	text-transform: uppercase;
+	text-align: center; 
+	margin: 0 auto;
+}
 
 .showcase_img_0 {
 	background-image: url(./images/bruschetta.jpg);
@@ -125,7 +197,6 @@ p {
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	background-color: green;
 }
 
 .image_frame:before {
@@ -184,15 +255,6 @@ p {
 	bottom: 0;
 }
 
-.bgParallax article { 
-	font-size: 24pt;
-	color: white;
-	width: 70%; 
-	text-align: center; 
-	margin:0 auto;
-	padding-top: 265px; 
-} 
-
 .content_column {
 	display: block;
 	float: left;
@@ -217,7 +279,8 @@ p {
 } 
 
 .content_column h1 {
-	font-size:20px;	
+	font-family: Gobold;
+	font-size: 17pt;	
 	border-bottom: 4px solid #2b5d2a;
 	margin-bottom:15px;
 }
@@ -232,34 +295,16 @@ p {
 }
 
 .content_solid h1 {
-	font-size:20px;	
+	font-family: Gobold;	
+	font-size: 17pt;	
 	border-bottom: 4px solid #2b5d2a;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 } 
 
 .content_solid p {
 	font-size:20px;
 } 
 
-.menu {
-	position: fixed;
-	top:0;
-	height:75px;
-	width:100%;
-	background-color: white;
-	z-index: 100;
-}
-
-.menu a {
-	font-family: Gobold;
-	float: left;
-	display: block;
-	color:  #2b5d2a;
-	text-align: center;
-	padding: 14px 16px;
-	font-size:17px;
-
-}
 .banner_info {
 	display: block;	
 	text-align: center;
