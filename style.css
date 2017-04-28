@@ -157,6 +157,18 @@ div[class~=showcase] h1, div[class~=showcase_main] h1 {
 .showcase_img_4 {
 	background-image: url(./images/bruschetta.jpg);
 } 
+ 
+.showcase_img_sust_0 {
+	background-image: url(./images/farm_cows.jpg);
+} 
+ 
+.showcase_img_sust_1 {
+	background-image: url(./images/fish-market.jpg);
+} 
+
+.showcase_img_our_team_main {
+	background-image: url(./images/chefs.jpg);
+} 
 
 .img_0 {
 	background-image: url(./images/bruschetta.jpg);
@@ -346,4 +358,8 @@ div[class~=showcase] h1, div[class~=showcase_main] h1 {
 
 .footer_links a {
 	padding: 3px 6px; 
+}
+
+.big_button {
+	touch-action: manipulation;
 }
