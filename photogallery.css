@@ -1,10 +1,58 @@
+.photo_viewer {
+	position: absolute;
+	top: 0;
+	left: 0; 
+	height: 100vh;
+	width: 100vw;	
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+}
+
+.card {
+	padding: 30px 40px 30px 30px;
+	display: block;
+	position: absolute;
+	top:40% ;
+	left: 30%;
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: white;
+	border: 1px solid black;
+	z-index: 100;
+}
+
+.photo_in_card {
+	display: inline-block;
+	width: 150px;
+	float: left;
+}
+
+.card_content {	
+	color:green;
+	display: inline-block;
+	float: left;
+	width: calc(100% - 150px);
+	padding-left: 20px;
+}
+
+.card_content h1 {	
+	font-family: Gobold;
+	display: block;
+	color:  #2b5d2a;
+	padding-bottom: 20px;
+	font-size:22px;
+	border-bottom: 4px solid #88c787; 
+
+}
+
 .photo {
+
 	display: block;
 	height: 192px;
 	margin: 10px 0;
 	background-size: cover;
 	background-position: center; 
-	transition: width 3s ease 0s;
 }
 
 .personal_src_0 {
