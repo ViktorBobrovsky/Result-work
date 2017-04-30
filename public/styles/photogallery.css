@@ -1,0 +1,105 @@
+.photo_viewer {
+	position: absolute;
+	top: 0;
+	left: 0; 
+	height: 100vh;
+	width: 100vw;	
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+}
+
+.card {
+	padding: 30px 40px 30px 30px;
+	display: block;
+	position: absolute;
+	top:40% ;
+	left: 30%;
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: white;
+	border: 1px solid black;
+	z-index: 100;
+}
+
+.photo_in_card {
+	display: inline-block;
+	width: 150px;
+	float: left;
+}
+
+.card_content {	
+	color:green;
+	display: inline-block;
+	float: left;
+	width: calc(100% - 150px);
+	padding-left: 20px;
+}
+
+.card_content h1 {	
+	font-family: Gobold;
+	display: block;
+	color:  #2b5d2a;
+	padding-bottom: 20px;
+	font-size:22px;
+	border-bottom: 4px solid #88c787; 
+
+}
+
+.photo {
+
+	display: block;
+	height: 192px;
+	margin: 10px 0;
+	background-size: cover;
+	background-position: center; 
+}
+
+.personal_src_0 {
+	background-image: url("../personal/25353Liz.jpg")
+}
+.personal_src_1 {
+	background-image: url("../personal/71003John.jpg")
+}
+.personal_src_2 {
+	background-image: url("../personal/7233Kevin_bio.jpg")
+}
+.personal_src_3 {
+	background-image: url("../personal/72099Aaron_bio.jpg")
+}
+.personal_src_4 {
+	background-image: url("../personal/80671Tommy.jpg")
+}
+.personal_src_5 {
+	background-image: url("../personal/91132Lily.jpg")
+}
+.personal_src_6 {
+	background-image: url("../personal/25353Liz.jpg")
+}
+.personal_src_7 {
+	background-image: url("../personal/3785Miles.jpg")
+}
+.personal_src_8 {
+	background-image: url("../personal/5091Aly.jpg")
+}
+.personal_src_9 {
+	background-image: url("../personal/7817chris.jpg")
+}
+.personal_src_10 {
+	background-image: url("../personal/67989aliconklin.jpg")
+}
+.personal_src_11 {
+	background-image: url("../personal/25353Liz.jpg")
+}
+.personal_src_12 {
+	background-image: url("../personal/25353Liz.jpg")
+}
+.personal_src_13 {
+	background-image: url("../personal/25353Liz.jpg")
+}
+.personal_src_14 {
+	background-image: url("../personal/25353Liz.jpg")
+}
+.personal_src_15 {
+	background-image: url("../personal/25353Liz.jpg")
+}
