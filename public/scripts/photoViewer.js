@@ -2,14 +2,22 @@ $(document).ready(function(){
   renderPersonalData();
 });
 
-function renderPersonalData(){
-  $.ajax({
-    url: '/personal',
-    method: 'GET'
-  }).then(function(personalData){
-    console.log(personalData)
-  })
-}
+// function renderPersonalData(){
+//   $.ajax({
+//     url: '/scrips/personalData.json',
+//     method: 'GET'
+//   }).then(function(personalData){
+
+//     personalData.forEach(function(obj){
+//       var $cardTemplate = $("div.card").clone();
+//       $cardTemplate.find([data-personal-photo]).attr("class", "photo_in_card" + " " + photoSource);
+//       $cardTemplate.find([data-personal-name]).text(obj.name);
+//       $cardTemplate.find([data-personal-bio]).text(obj.bio);
+//     })
+
+
+//   })
+// }
 
 
 
