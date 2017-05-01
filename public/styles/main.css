@@ -117,7 +117,8 @@ div[class~=showcase] h2 {
 	padding-top: 210px; 
 }
 
-div[class~=showcase] h1 {
+div[class~=showcase] h1,
+h1.slogan {
 	font-family: Cleanveb;
 	font-size: 42pt;
 	color: white;
@@ -125,6 +126,10 @@ div[class~=showcase] h1 {
 	text-align: center; 
 	margin: 0 auto;
 	padding-bottom: 20px;
+}
+h1.slogan {
+	padding-top: 250px;
+
 }
 
 .content_block { 
@@ -164,11 +169,7 @@ div[class~=showcase] h1 {
 	background-size: 100% 100%;
 	z-index: 3;
 
-}
-
-  {
-
- }
+} 
 
 .showcase_main:before, .showcase_main:after,
 .showcase:before, .showcase:after {
@@ -225,6 +226,7 @@ div[class~=showcase] h1 {
 
 .content_column h1 {
 	font-family: Gobold;
+	line-height: 30px;
 	font-size: 17pt;	
 	border-bottom: 4px solid #2b5d2a;
 	margin-bottom:15px;
@@ -344,6 +346,11 @@ textarea.form_element {
 			background-repeat: no-repeat;
 			z-index: 3;
 		}
+
+		.showcase_main:before {
+			top: 0;
+		}
+
 		.menu {
 			height: 375px;
 			text-align: center;
@@ -363,4 +370,14 @@ textarea.form_element {
 		 div.menu_sub + div .showcase {
 		 	margin-top:419px;
 		 }
+
+		 .content_column {
+			line-height: 30px;
+			font-size:20px;
+			display: block;
+			float: left;
+			width: 100%;
+			padding: 10px 10px;
+			color:#2b5d2a;
+		}
 	}

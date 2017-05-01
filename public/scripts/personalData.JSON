@@ -1,0 +1,119 @@
+[
+  {
+    "id": "5907671106265598552114e2",
+    "name": 0,
+    "bio": "1ee33581-a0b6-4e63-9782-028b1eb3b694",
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "id": "5907671181906fa39e6bdc62",
+    "name": 1,
+    "bio": "93554f9f-6f6d-4cf2-b088-e56206dc00ec",
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "id": "59076711a7bfe9ad1e6b2dde",
+    "name": 2,
+    "bio": "0f5f4881-ebd5-42db-b87e-bcf4d7ca58ad",
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "id": "590767116bd3d016fd7d2c73",
+    "name": 3,
+    "bio": "67644279-acd4-4d1e-9732-f6a9cbc1be9b",
+    "picture": "http://placehold.it/32x32"
+  },
+  {
+    "id": "5907671176b10f4f8e2f632d",
+    "name": 4,
+    "bio": "8ee5067f-f190-4e68-9da2-9c026ef3d0c2",
+    "picture": "http://placehold.it/32x32"
+  }
+]
+
+// [
+// 	{
+// 		"name": "Liz",
+// 		"photo": "../personal/25353Liz.jpg",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Miles",
+// 		"photo": "../personal/3785Miles.jpg",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Amily",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "John",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Ali",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Aaron",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Kevin",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Chris",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Chris",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Brita",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Tommy",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Lily",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Arnold",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	},
+
+// 	{
+// 		"name": "Maria",
+// 		"photo": "linl",
+// 		"bio": "jnj"
+// 	}
+
+// ]

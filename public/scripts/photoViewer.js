@@ -1,3 +1,21 @@
+$(document).ready(function(){
+  renderPersonalData();
+});
+
+function renderPersonalData(){
+  $.ajax({
+    url: '/personal',
+    method: 'GET'
+  }).then(function(personalData){
+    console.log(personalData)
+  })
+}
+
+
+
+
+
+
 $(document).find("div a div").click(function(event) {
     var photoSource = $(event.target).attr("class");
 
