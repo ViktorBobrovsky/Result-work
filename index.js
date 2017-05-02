@@ -1,6 +1,6 @@
 var express = require('express');
 var path =  require('path');
-var personalData = require('./public/scripts/personalData.JSON');
+var personalData = require('./public/scripts/personalData.json');
 
 var app = express();
 
