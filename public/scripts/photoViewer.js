@@ -1,5 +1,8 @@
 $(document).ready(function(){
+  renderCard();
+});
 
+function renderCard(){
   $.ajax({
     url: '/personal',
     method: 'GET'
@@ -8,16 +11,20 @@ $(document).ready(function(){
       $(document).find("div.photoes_place a div").click(function(event) {
           var photoSource = $(event.target).attr("class");
           console.log(photoSource);
-          var $cardTemplate = $("#card_template").clone(); 
+          var $cardTemplate = $("#card_template"); 
+      
 
-        personalData.forEach(function(obj,index){
-          if(photoSource == obj.photo){
-                     
-            $cardTemplate.find("[data-personal-photo]").attr("class", "photo_in_card" + " " + photoSource);
-            $cardTemplate.find("[data-personal-name]").text(obj.name);
-            $cardTemplate.find("[data-personal-bio]").text(obj.bio);
-          };    
-        });
+          var filteredObj = personalData.filter(function(obj){
+              return obj.photo == photoSource;             
+          });             
+              $cardTemplate.find("[data-personal-photo]").attr("class", "photo_in_card" + " " +  filteredObj[0].photo);
+             
+              $cardTemplate.find("[data-personal-name]").html(filteredObj[0].name);
+              console.log( $cardTemplate.find("[data-personal-name]").text());
+              $cardTemplate.find("[data-personal-bio]").html(filteredObj[0].bio);
+              console.log( $cardTemplate.find("[data-personal-bio]").text());
+            
+        
 
         $("#card_photo").attr("style", "display:inline-block");            
         $("div.photo_viewer").fadeIn(300);
@@ -42,9 +49,7 @@ $(document).ready(function(){
   		  });
       });  
     }); 
-
-});
-
+};
 
 
     
