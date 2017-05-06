@@ -1,0 +1,26 @@
+#toggle_menu{
+	display:none;
+}
+ @media (max-width: 769px){
+ 	#toggle_menu{
+ 		float: right;
+		display:block;
+		height: 45px;
+		width: 45px;
+		margin: 15px 15px;
+		background-color: red;
+	}
+	#toggle_menu i.fa-bars,
+	#toggle_menu i.fa-times
+	{
+		position: relative;
+		right: 9px;
+		color:#2b5d2a;		
+	}
+	#toggle_menu i.fa-bars
+	{
+		display:block;	
+	}
+
+
+ }
