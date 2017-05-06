@@ -47,55 +47,54 @@
 }
 
 .photo {
-
 	display: block;
 	height: 192px;
 	margin: 10px 0;
 	background-size: cover;
-	background-position: center; 
+	background-position: center top; 
 }
 
 .personal_src_0 {
-	background-image: url("../personal/25353Liz.jpg")
-}
-.personal_src_1 {
-	background-image: url("../personal/71003John.jpg")
-}
-.personal_src_2 {
-	background-image: url("../personal/7233Kevin_bio.jpg")
-}
-.personal_src_3 {
-	background-image: url("../personal/72099Aaron_bio.jpg")
-}
-.personal_src_4 {
-	background-image: url("../personal/80671Tommy.jpg")
-}
-.personal_src_5 {
-	background-image: url("../personal/91132Lily.jpg")
-}
-.personal_src_6 {
-	background-image: url("../personal/25353Liz.jpg")
-}
-.personal_src_7 {
 	background-image: url("../personal/3785Miles.jpg")
 }
-.personal_src_8 {
+.personal_src_1 {
 	background-image: url("../personal/5091Aly.jpg")
 }
-.personal_src_9 {
+.personal_src_2 {
+	background-image: url("../personal/74710Dana.jpg")
+}
+.personal_src_3 {
+	background-image: url("../personal/25353Liz.jpg")
+}
+.personal_src_4 {
+	background-image: url("../personal/7233Kevin_bio.jpg")
+}
+.personal_src_5 {
 	background-image: url("../personal/7817chris.jpg")
 }
-.personal_src_10 {
+.personal_src_6 {
+	background-image: url("../personal/71003John.jpg")
+}
+.personal_src_7 {
+	background-image: url("../personal/78538Brittah.jpg")
+}
+.personal_src_8 {
+	background-image: url("../personal/37731katie.jpg")
+}
+.personal_src_9 {
 	background-image: url("../personal/67989aliconklin.jpg")
 }
+.personal_src_10 {
+	background-image: url("../personal/91132Lily.jpg")
+}
 .personal_src_11 {
-	background-image: url("../personal/25353Liz.jpg")
+	background-image: url("../personal/72099Aaron_bio.jpg")
 }
 .personal_src_12 {
-	background-image: url("../personal/25353Liz.jpg")
+	background-image: url("../personal/80671Tommy.jpg")
 }
 .personal_src_13 {
-	background-image: url("../personal/25353Liz.jpg")
+	background-image: url("../personal/98258luke.jpg")
 }
 .personal_src_14 {
 	background-image: url("../personal/25353Liz.jpg")

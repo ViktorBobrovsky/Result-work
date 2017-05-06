@@ -31,8 +31,8 @@ function renderCard(){
         $("div.photo_viewer").attr("style","display:block");
         $('html').css({
           overflow: 'hidden',
-          height: '100%',
-          width: '99.4%',
+          // height: '100%',
+          // width: '100%',
           transition: 'width 2s'
         });            
       });
@@ -43,8 +43,8 @@ function renderCard(){
       	// $("div.photo_viewer").attr("style","display:none");
       	$('html').css({
     			overflow: 'auto',
-     			height: 'auto',
-     			width: 'auto',
+     			// height: 'auto',
+     			// width: 'auto',
      			transition: 'width 2s'
   		  });
       });  

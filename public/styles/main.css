@@ -385,6 +385,9 @@ textarea.form_element {
 		 	margin-left: auto ;
 		 	margin-right: auto;
 		}
+		.footer_links_right{
+			text-align: center;
+		}
 		.footer_links_right a{
 			padding-left: 20px;
 			padding-right: 20px;
