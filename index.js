@@ -14,9 +14,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.post('/contact', function(req,res){
-	console.log(req.body);
-	res.send(req.body);
-	fs.writeFile(req.body.name + '.txt', req.body.email + req.body.message, function (err) {
+
+	fs.writeFile(req.body.name + '.txt', req.body.email + ' ' + req.body.message, function (err) {
  		 if (err) return console.log(err);
   			console.log('User data message created here')
 	});

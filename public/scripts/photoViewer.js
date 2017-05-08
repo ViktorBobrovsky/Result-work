@@ -33,7 +33,7 @@ function renderCard(){
           overflow: 'hidden',
           // height: '100%',
           // width: '100%',
-          transition: 'width 2s'
+          // transition: 'width 2s'
         });            
       });
       // console.log("There is" + $("#card_template h1").text())
@@ -45,12 +45,16 @@ function renderCard(){
     			overflow: 'auto',
      			// height: 'auto',
      			// width: 'auto',
-     			transition: 'width 2s'
-  		  });
+
+          // transition: 'width 2s'
+        });
       });  
     }); 
 };
-
-
     
 
+
+
+
+0+ 
+5
