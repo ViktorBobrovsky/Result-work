@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$(document).find('#contactSend').click(function(){
 		var $userName = $('input[name=name]').val();
 		var $userEmail = $('input[name=email]').val();
-		var $userMessage = $('input[name=message]').val();
+		var $userMessage = $('textarea[name=message]').val();
 
 		$.ajax({
 			url: '/contact',
