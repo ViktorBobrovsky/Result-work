@@ -3,8 +3,16 @@
 	background-image: url(../images/restaurant.jpg);
 }
 
+.showcase_img_about_0 {
+	background-image: url(../images/restaurant_2.jpg);
+} 
+
+.showcase_img_about_1 {
+	background-image: url(../images/farm_0.jpg);
+} 
+
 .showcase_img_0 {
-	background-image: url(../images/bruschetta.jpg);
+	background-image: url(../images/sandwich.jpg);
 } 
 
 .showcase_img_1 {
@@ -12,7 +20,7 @@
 } 
 
 .showcase_img_2 {
-	background-image: url(../images/roasted_fish.jpg);
+	background-image: url(../images/bruschetta-2.jpg);
 } 
 
 .showcase_img_3 {
@@ -22,6 +30,9 @@
 	background-image: url(../images/bruschetta.jpg);
 } 
  
+.showcase_img_about_main {
+	background-image: url(../images/kitchen.jpg);
+}  
 .showcase_img_sust_main {
 	background-image: url(../images/farm_to_table.jpg);
 }  
@@ -50,22 +61,22 @@
 } 
 
 .img_3 {
-	background-image: url(../images/cupcakes.jpg);
+	background-image: url(../images/meal.jpg);
 } 
 .img_4 {
-	background-image: url(../images/bruschetta.jpg);
+	background-image: url(../images/gourmet-salad.jpg);
 } 
 
 .img_5 {
-	background-image: url(../images/food.jpg);
+	background-image: url(../images/meal-2.jpg);
 } 
 
 .img_6 {
-	background-image: url(../images/roasted_fish.jpg);
+	background-image: url(../images/cheesecake.jpg);
 } 
 
 .img_7 {
-	background-image: url(../images/cupcakes.jpg);
+	background-image: url(../images/cake2.jpg);
 } 
 .img_8 {
 	background-image: url(../images/bruschetta.jpg);

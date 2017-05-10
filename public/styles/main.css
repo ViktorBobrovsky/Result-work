@@ -58,6 +58,9 @@ p {
 	font-size:22px;
 
 }
+.currentPage {
+	text-decoration: underline;
+}
 
 .menu_sub {
 	text-align: center;
